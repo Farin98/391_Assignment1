@@ -50,6 +50,29 @@ body{
       background-color: #CDF0EA;
       margin: 200px 300px;
   }
+
+  @media only screen and (max-width: 1200px) {
+  .quote{
+      
+      margin: 20px 20px;
+  }
+  .bio-box{
+   
+    margin: 0px 20px;
+    padding: 20px 0px;
+  }
+  .card {
+    
+    width: 100%;
+  }
+  .cell-box-left{
+    padding-left:0px;
+    padding-right: 0px;
+}
+}
+
+
+
   .quote-line{
       font-style: italic;
       font-size: 30px;
@@ -64,7 +87,7 @@ body{
   .bio-box{
       border: 5px solid #CDF0EA;
       background-color: #CDF0EA;
-      margin: 0px 300px;
+      /* margin: 0px 300px; */
       padding: 20px 0px;
   }
 
